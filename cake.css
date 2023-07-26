@@ -1,0 +1,244 @@
+/*linear gradient*/
+
+ html {
+   height: 100%;
+ }
+    body {
+     
+    /*see below if you want a gradient background*/
+    background-image:linear-gradient(to top , #5900ff,#ff7700 ); 
+    background-size: cover;
+     background-position: center;
+     min-height: 100% ;
+    }
+ 
+    
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+} 
+
+/*.navbar {
+   position: relative;
+    left: 3cm;
+    height: 1.5cm;
+    background-color: #232323;
+}*/ /*linear-gradient:(to bottom right , #0c0912,#a002b8,#ff9500 );*/
+
+
+.logo { 
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    background-image: url("logo2.png");
+    background-size:cover ;
+    height: 73px;
+    width: 145px;
+    display: inline-block;
+    border: 2px solid #242424 ;
+}
+ 
+ 
+ 
+/*.button {
+    
+   color: #ffffff;
+    background-color: #2f2f2f;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 32px;
+    width: 90px;
+    border-radius: 100px;
+    line-height: 2;*/ /*helps center text both vertically and horizontally */
+  /*  padding-top: 2px;
+    display: block;
+    position: absolute;*/ /* by default position is static in css hence we 
+    couldn't use this top property but as the position is static now we 
+    can use top left right properties*/
+   /* left: 1.5cm;
+    top: 0.3cm;
+}*/
+ /*.button2 {
+    margin: 0;
+    color: #ffffff;
+    background-color: #2f2f2f;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height: 32px;
+    width: 90px;
+    border-radius: 100px;
+    line-height: 2;*/ /*helps center text both vertically and horizontally */
+   /* padding-top: 2px;
+    display: block;
+    position: absolute;*/ /* by default position is static in css hence we 
+    couldn't use this top property but as the position is static now we 
+    can use top left right properties*/
+   
+    /*top: 3cm;
+}
+*/
+.sidebar { 
+    border-right: 2px solid #2f2f2f;
+    color: #ffffff;
+    background-color: #232323;
+    display: inline-block;
+    text-align: center; 
+    position: sticky;
+    width: 153px;
+    height:605px;
+    top: 0cm;
+    z-index: 10;
+}
+
+.logo:hover {
+    border:2px solid #484848;  
+}
+.logo:active {
+    border:2px solid #767676;  
+}
+
+#myDIV {
+    padding-bottom: 0.5cm;
+    position: relative;
+    top:82px;
+    left:0;
+    border-bottom: 2px solid #2f2f2f;
+}
+
+input[type=text] /*only way to style a form */
+ {  
+    height: 26px;
+    width: 100px;
+    padding-left:0.1cm;
+    border-radius: 30px;
+    margin-left: 0.2cm;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #484848;
+    color: #ffffff;
+    border: none;
+}
+
+ul li {
+    height: 26px;
+    width: 100px;
+    background: #484848;
+    margin: 3px 3px 10px 3px;
+    padding: 2px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    top: 10px;
+    color:#ffffff;
+    border-radius: 30px;
+    /* make the list items unselectable */
+    user-select: none;
+    
+}
+ 
+  ul {
+    position: relative;
+    top: 100px;
+    margin: 0px;
+}
+
+
+.close {
+    position: absolute;
+   justify-content: center;
+    left: 8px;
+   padding: 0px 0px 0px 0px;
+  }
+  
+  .close:hover {
+    color: #ffffff;
+    
+}
+  
+  .close:active {
+    color: #ff1100;
+    
+}
+i {
+    color: #00b7ff;
+}
+
+/*  footer {
+    background-color: #2f2f2f;
+    bottom: 10px;
+    height: 60px;
+    width: 100%;
+}*/
+
+#btn {
+    position: relative;
+    top: 200px;
+    left: 150px;
+    height: 3cm;
+    width: 3cm;
+    background-size: cover;
+}
+
+section {
+ position: relative;
+ height: 500px;
+ background-color:#232323 ;
+ color: #ffffff;
+ padding: 0px 0px 10px 155px;
+ bottom: 0px;
+ z-index: 5;
+}
+section::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(to bottom,#5900ff,#232323);
+    width: 1108px;
+   height: 100px;
+   
+}
+
+section p{
+    position: relative;
+    z-index: 10;
+}
+
+section h2{
+    position: relative;
+    z-index: 10;
+}
+
+a {
+   text-decoration:none ; 
+   color: #ffffff;
+   display: inline-block;
+   }
+/*
+.parallax {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text {
+    position: relative;
+    left: 300px;
+    top: 150px;
+    color: #ffffff;
+    font-size: 7.5vw;
+    z-index: 9;
+    text-shadow: 5px #484848;
+}
+*/
+
+
+
+
+
+
+
+
+
+ 
